@@ -59,7 +59,7 @@ public class DataReader {
 				teachList.add(new Teacher(new ArrayList<String[]>(exams.subList(ind, lastSame))));	//make new Teacher object
 			}
 			
-			ind = lastSame;
+			ind = lastSame - 1;
 		}
 		
 		if(noTeach.size() > 0) {
@@ -68,6 +68,7 @@ public class DataReader {
 		Collections.sort(teachList, (Teacher t1, Teacher t2) -> t1.name.compareTo(t2.name));	//sort teachers alphabetically
 		
 		reader.close();
+
 		return teachList;
 	}
 	

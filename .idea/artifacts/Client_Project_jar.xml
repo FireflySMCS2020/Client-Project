@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Client-Project:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Client_Project_jar</output-path>
+    <root id="archive" name="Client-Project.jar">
+      <element id="module-output" name="Client-Project" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ExternalJars/activation.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ExternalJars/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/ExternalJars/itextpdf-5.5.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
